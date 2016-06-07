@@ -1,0 +1,6 @@
+---
+applications:
+- name: cars
+  memory: 512M
+  host: cars
+  path: target/cf-cars-svc.war
