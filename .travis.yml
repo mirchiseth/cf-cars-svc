@@ -22,7 +22,7 @@ deploy:
   api_key:
     secure: vPVfvv/VtW3fwk7yN5RgyQ/7+bA/e4EaT/ZyRo5T0/OTkhPbs4NtyVBgffG9Ic0kv5qcRvlRMQFQlogoX0PTOHEmWOvGKzbOdzAq1mBZA9DPAfj1T3aTWADUqgepcF6DVLHF6qNbuQ6kxwoZd7qgYmz8aP5acfid/G5555slijrQyDvKXy0ew8oZ6WAQfA6xzYBvElaym8cwfrp5h6CGVo4DCwbSsU0sczQMjwbOoxGzsKMTGJ4PUDojMyeL/PRDKbu4GXJ97aEGn9IwARbHwD9aesELl+jt5cYG6KsE4VOwSmTI4e9tCxWMCQISwHyfHoJsZTCXWstsCD+hgwKnbPN4hm/Hl1QniyYxgX9wURtb/A6mG3kNMizKDUDin65ZI5LMPz5MWE31bKEmGWzBEnSyTgK1BAy9L6TW4YTwTHhiElDn5EfahjukmlBuV+foeqDayveh6mjtPsccIEfwrh8UQMPyqiCpedsk0WOs7YSgNT0znq4XXrgthYlWtCactxDl/eRp7JH12zeuvdJ50jtvTs1ISEdH4FKhAzOSVSx/Vgfi9b7IvQmxdpxdgnQsG2ywBqZc5iVAbOAzM3P+fjKc9ca8zD5cNIUJDuz1L39+TB3lRfJD5yDac4Tn8WrrZzMoTF3FgyzAzbQq9mCzYXK/k0kRWdhqGKA4NUHBEow=
   file: 
-    - cf-cars-svc.war
+    - cf-cars-svc/traget/cf-cars-svc.war
   skip_cleanup: true
   on:
     repo: mirchiseth/cf-cars-svc
