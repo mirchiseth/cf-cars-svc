@@ -20,8 +20,7 @@ notifications:
 deploy:
    provider: cloudfoundry
    username: mirchiseth+cf@gmail.com
-   password: 
-     secure: uoWKVX/bn7mRsRljuT7UQYfsAnpxtNXgEkKRmYNDpJ+eIynMFNqmCmXabEqQN+7N3ov38xLH1zqGIlrXpcdCUPlAh79YAxbDd8cDgY9t4syAaHr0ga1dHj2kE3JHKfqLAo4Y7AniyDAtjX5y3hD0v8tVOIUL8tbCF29rYhZnOmZmRKPZV/pGedDpQIRHfnBYSsfAANVGbYMcXBYu4PNWahFOhNNBJmNR6HCwUvViGv8rN71kBb/gpiZlJo7V/CNgu/RMoecQ2PJX7F48SLnwk+BzpJ1PhhTPPTJj2mZirctnXFpS15YsqYp4bAktX/XbTzlhN0Zoq56wwncruTNzcDJ5eoEEM+7uJLIreAWKKME4XaDdh5XoNp9JL8S616XzwuFztlb30Efww1LVv34preng6a15G6tnT7CRnCtzw2rGMcanaF1jtyIwQdiMI/MloYo6Y5TcDgx6U6VmHGfA7jZjASLzkL0L1qERuzFKTs2VPMVKciXMMhzLXOSq0jm9jjNT95kNSe1H//NsU4Zac6fPLBq2vqcv9IE3FvrexiR0Qn+SB+OZ2UIVxPD8z/5JTET6kJgoG3PDPzF6tUSh7wAd0jbHfYxjg4S5CCT0Oe3qsWETqxJHU5sHt7NTkPgrGXJ2LhRQqgWPrDb1yGWRpd/fmFX1RMaVxYh1rAh0DZk=
+   password: $CF_PASSWORD
    api: https://api.cf.us10.hana.ondemand.com
    organization: P2000174221trial_trial
    space: dev
