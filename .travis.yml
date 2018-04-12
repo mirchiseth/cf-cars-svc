@@ -15,9 +15,6 @@ env:
 before_install:
   - jdk_switcher use oraclejdk8
   - java -version
-script:
-  - chmod +x mvnw
-  - ./mvnw clean test
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
