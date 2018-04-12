@@ -18,11 +18,12 @@ notifications:
     on_failure: always  # options: [always|never|change] default: always
     on_start: false     # default: false
 deploy:
-   provider: cloudfoundry
-   skip_cleanup: true
-   username: "mirchiseth+cf@gmail.com"
-   password: 
-     secure: DFhqBP4MqFp2pPaNfOx6qEUmHC1mQJUojzTp0nsAh51RIc9E4IlL4FWZrkVvVhIK8l8R185Fr+IqzzuydtTSuMPFV7sa7wXQZjEIcoiunIDSy5JfX+41DFav5v/Nr/Uy5u5hrEzA17A+IHwB/wYynIojBtlZ2sNkxKUk08O5DdqDc4c4tI2rAim6BgNmnHk8y358XzMHgTP1P2nI1ZXSgoVJkBhdPeOFetVNH4r4hISXrElO5RZOm89OCplBytF82OEy7i56oPIoIWj9xkIF2DUZ831pyBHF9nK87zhVPgDA+OajpS3NkzJzHzfltK+pSPtVxtOv/703+707l6yRPvHxxhkpPaqTn8bmAYLwB5dHueMf6YjvN6gRclociiUTqgb54goUj7H4NYMQJ9Q6moyxGgSPL7phT0vUvcs6yuIonDhzKRYIKn3NJNGIdfc7irnF9xqyBbm482VoY7pmaNdtTNiydyuvZ1rHIGhxzAFafk4LDfw9voOCroH2Iyxz56XMt3SDca5PNhIj91luV6xej+KFCNhtBfLtourIo/BzixAc42X/miAUxjUTQCFhA9dyXUaQRRoecGVHxaswwtFclu4ChZkCfQQnlDxSuIblpe+TrbffABfTtam2zoG/2MEY25GgDsqzXgWIUpMbt9yZG0Mw2z+Xqw8oPzCAhwg=
-   api: https://api.cf.us10.hana.ondemand.com
-   organization: P2000174221trial_trial
-   space: dev
+  provider: releases
+  api_key:
+    secure: vPVfvv/VtW3fwk7yN5RgyQ/7+bA/e4EaT/ZyRo5T0/OTkhPbs4NtyVBgffG9Ic0kv5qcRvlRMQFQlogoX0PTOHEmWOvGKzbOdzAq1mBZA9DPAfj1T3aTWADUqgepcF6DVLHF6qNbuQ6kxwoZd7qgYmz8aP5acfid/G5555slijrQyDvKXy0ew8oZ6WAQfA6xzYBvElaym8cwfrp5h6CGVo4DCwbSsU0sczQMjwbOoxGzsKMTGJ4PUDojMyeL/PRDKbu4GXJ97aEGn9IwARbHwD9aesELl+jt5cYG6KsE4VOwSmTI4e9tCxWMCQISwHyfHoJsZTCXWstsCD+hgwKnbPN4hm/Hl1QniyYxgX9wURtb/A6mG3kNMizKDUDin65ZI5LMPz5MWE31bKEmGWzBEnSyTgK1BAy9L6TW4YTwTHhiElDn5EfahjukmlBuV+foeqDayveh6mjtPsccIEfwrh8UQMPyqiCpedsk0WOs7YSgNT0znq4XXrgthYlWtCactxDl/eRp7JH12zeuvdJ50jtvTs1ISEdH4FKhAzOSVSx/Vgfi9b7IvQmxdpxdgnQsG2ywBqZc5iVAbOAzM3P+fjKc9ca8zD5cNIUJDuz1L39+TB3lRfJD5yDac4Tn8WrrZzMoTF3FgyzAzbQq9mCzYXK/k0kRWdhqGKA4NUHBEow=
+  file: 
+    - cf-cars-svc.war
+  skip_cleanup: true
+  on:
+    repo: mirchiseth/cf-cars-svc
+    tags: true
