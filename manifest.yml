@@ -2,5 +2,5 @@
 applications:
 - name: cars
   memory: 512M
-  host: cars
+  host: carspkn
   path: target/cf-cars-svc.war
