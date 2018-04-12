@@ -19,7 +19,7 @@ notifications:
     on_start: false     # default: false
 deploy:
    provider: cloudfoundry
-   username: mirchiseth+cf@gmail.com
+   username: mirchiseth\\+cf@gmail.com
    password: $CF_PASSWORD
    api: https://api.cf.us10.hana.ondemand.com
    organization: P2000174221trial_trial
