@@ -1,5 +1,5 @@
 ---
 applications:
 - name: cars
-  memory: 512M
+  memory: 1024M
   path: target/cf-cars-svc.war
