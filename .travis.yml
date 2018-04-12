@@ -5,7 +5,7 @@ before_deploy:
   - export project_version=$(mvn help:evaluate -N -Dexpression=project.version|grep -v '\[')
 
 after_script:
-  - ls -ltr target
+  - ls -lrt target
 
 deploy:
   provider: cloudfoundry
