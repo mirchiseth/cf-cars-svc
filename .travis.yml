@@ -1,0 +1,7 @@
+deploy:
+   provider: cloudfoundry
+   username: mirchiseth+cf@gmail.com
+   password: supersecretpassword
+   api: https://api.cf.us10.hana.ondemand.com
+   organization: P2000174221trial_trial
+   space: dev
