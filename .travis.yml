@@ -19,6 +19,7 @@ notifications:
     on_start: false     # default: false
 deploy:
    provider: cloudfoundry
+   skip_cleanup: true
    username: "mirchiseth+cf@gmail.com"
    password: 
      secure: DFhqBP4MqFp2pPaNfOx6qEUmHC1mQJUojzTp0nsAh51RIc9E4IlL4FWZrkVvVhIK8l8R185Fr+IqzzuydtTSuMPFV7sa7wXQZjEIcoiunIDSy5JfX+41DFav5v/Nr/Uy5u5hrEzA17A+IHwB/wYynIojBtlZ2sNkxKUk08O5DdqDc4c4tI2rAim6BgNmnHk8y358XzMHgTP1P2nI1ZXSgoVJkBhdPeOFetVNH4r4hISXrElO5RZOm89OCplBytF82OEy7i56oPIoIWj9xkIF2DUZ831pyBHF9nK87zhVPgDA+OajpS3NkzJzHzfltK+pSPtVxtOv/703+707l6yRPvHxxhkpPaqTn8bmAYLwB5dHueMf6YjvN6gRclociiUTqgb54goUj7H4NYMQJ9Q6moyxGgSPL7phT0vUvcs6yuIonDhzKRYIKn3NJNGIdfc7irnF9xqyBbm482VoY7pmaNdtTNiydyuvZ1rHIGhxzAFafk4LDfw9voOCroH2Iyxz56XMt3SDca5PNhIj91luV6xej+KFCNhtBfLtourIo/BzixAc42X/miAUxjUTQCFhA9dyXUaQRRoecGVHxaswwtFclu4ChZkCfQQnlDxSuIblpe+TrbffABfTtam2zoG/2MEY25GgDsqzXgWIUpMbt9yZG0Mw2z+Xqw8oPzCAhwg=
